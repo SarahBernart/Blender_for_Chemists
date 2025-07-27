@@ -20,7 +20,7 @@ for block in bpy.data.images:
 
 
 # === Schritt 1: Lade XYZ-Datei ===
-xyz_path = "/Users/sarahbernart/calc/Kinetics/Cluster/Pt4_CeO2/Blender/M1.xyz"
+xyz_path = "/Users/your_name/your_path/your_file.xyz"
 bpy.ops.import_mesh.xyz(filepath=xyz_path)
 
 # === Schritt 2: Viewport auf RENDERED & ORTHO ===
